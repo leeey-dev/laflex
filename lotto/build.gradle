@@ -1,0 +1,12 @@
+plugins {
+    id 'groovy'
+    id 'leeey.project.library-conventions'
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.15.2'
+}
+
+test {
+    useJUnitPlatform()
+}

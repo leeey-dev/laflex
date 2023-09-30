@@ -1,0 +1,7 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+    id 'leeey.project.java-conventions'
+}
+
+group = 'leeey.project'
