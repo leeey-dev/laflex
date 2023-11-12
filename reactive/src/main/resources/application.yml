@@ -13,5 +13,5 @@ springdoc:
   swagger-ui:
     path: /swagger-ui.html
 jwt:
-  tokenSecret: qwer1234!@#$asdfjiewanfgeirngreiugerliuWD
+  tokenSecret: qwer1234!@#$asdfjiewanfgeirngreiugerliuWD #todo: encrypt
   expirationMs: 3600000
