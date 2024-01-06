@@ -86,7 +86,7 @@ services:
       - camus-kafka
   schema-registry:
     image: confluentinc/cp-schema-registry
-    container_name: schema-registry
+    container_name: camus-kafka-schema-registry
     hostname: schema-registry
     ports:
       - "18081:18081"
